@@ -20,9 +20,9 @@ function Home(){
                 <button type="submit" className="searchbutton">seach</button>
             </form>
 
-            <div className="moviegrid">{movies.map((movie)=>{
-               return  <Moviecard movie={movie} key={movie.id}></Moviecard>
-            })}</div>
+            <div className="moviegrid">{movies.map((movie)=>
+                 (movie.title.toLowerCase().startsWith(seachqueery)&&<Moviecard movie={movie} key={movie.id}></Moviecard>)
+            )}</div>
         </div>
     )
 

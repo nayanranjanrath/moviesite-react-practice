@@ -1,7 +1,7 @@
 
 import Moviecard from './component/moviecart'
 import Home from './pages/home'
-import './App.css'
+import './css/App.css'
 import { Routes, Route } from 'react-router-dom'
 import Favorite from './pages/favorite'
 import Navbar from './component/navbar'

@@ -1,5 +1,6 @@
 import Moviecard from "../component/moviecart";
 import { useState } from "react";
+import '../css/Home.css'
 function Home(){
     const[seachqueery,setseachqueery]=useState("")
     const movies=[
